@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    a=parseFloat(prompt('please inter a number'))
+    b=parseFloat(prompt('please enter a number'))
+    c=parseFloat(prompt('please enter a number'))
+    document.write(a)
+    document.write(b)
+    document.write(c)
+    document.write('<hr>')
+
+    if (a < b) {
+       if (a < c) {
+        document.write(a)
+       } else{
+        document.write(c)
+       }
+    }else {
+        if (b < c) {
+            document.write(b)
+        }else{
+            document.write(c)
+        }
+    }
+</script>
+</body>
+</html>
